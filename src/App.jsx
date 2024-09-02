@@ -6,10 +6,6 @@ export default function App() {
     <>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         <Counter />
-        <Counter />
-        <Counter />
-        <Counter />
-        <Counter />
       </div>
     </>
   );
