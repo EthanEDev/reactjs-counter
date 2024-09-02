@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Button from "./button";
+import upIcon from "./../icons/up.svg"
+import downIcon from "./../icons/down.svg"
 
 export default function Counter() {
   const [value, setValue] = useState(0); // Initialize state to keep track of the counter's value
@@ -45,12 +47,12 @@ export default function Counter() {
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div>
             <Button
-              src={"src/icons/down.svg"}
+              src={downIcon}
               alt={"down"}
               onClick={HandleDecrease}
             ></Button>
             <Button
-              src={"src/icons/up.svg"}
+              src={upIcon}
               alt={"up"}
               onClick={HandleIncrease}
             ></Button>
