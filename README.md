@@ -16,6 +16,8 @@ You can try out the live demo of this project [here](https://reactjs-counter.ver
 - Decrease by 1
 - Increase by 5
 - Decrease by 5
+- Reset (sets the counter value to zero)
+- Responsive design
 
 ## Installation
 
@@ -83,6 +85,7 @@ Once the application is running, you can use the following features:
 - **Decrease by 1**: Click the "DOWN" button to decrease the counter value by 1.
 - **Increase by 5**: Click the "+5" button to increase the counter value by 5.
 - **Decrease by 5**: Click the "-5" button to decrease the counter value by 5.
+- **Reset**: Click the "Reset" button to set the counter value to zero.
 
 ## Technologies Used
 
