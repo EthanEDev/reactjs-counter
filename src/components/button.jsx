@@ -6,6 +6,7 @@ export default function Button({
   onClick, // Function to be called when the button is clicked
   bgColor = "gold", // Background color of the button, default is "gold"
   children, // Fallback content to be displayed if no image is provided
+  wide // Making the button wide as long as two buttons
 }) {
 
   // Determine the button's content: use an image if 'src' is provided, otherwise use 'children'
@@ -16,14 +17,15 @@ export default function Button({
       <button
         onClick={onClick}
         style={{
+          boxSizing: "content-box",
           border: "0",
-          margin: "2px",
+          margin: "4px",
           backgroundColor: bgColor,
           borderRadius: "5px",
           fontFamily: "Arial",
           fontSize: "30px",
-          width: "50px",
-          height: "45px",
+          width: wide ? "160px" : "70px",
+          height: "60px",
         }}
       >
         {value}

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Button from "./button";
-import upIcon from "./../icons/up.svg"
-import downIcon from "./../icons/down.svg"
+import upIcon from "./../icons/up.svg";
+import downIcon from "./../icons/down.svg";
+import resetIcon from "./../icons/reset.svg";
 
 export default function Counter() {
   const [value, setValue] = useState(0); // Initialize state to keep track of the counter's value
@@ -18,6 +19,9 @@ export default function Counter() {
   const HandleDecreaseFive = () => {
     setValue(value - 5); // Decrease the counter value by 5
   };
+  const HandleReset = () => {
+    setValue(0); // Reset the counter value
+  }
 
   return (
     <>
@@ -51,11 +55,7 @@ export default function Counter() {
               alt={"down"}
               onClick={HandleDecrease}
             ></Button>
-            <Button
-              src={upIcon}
-              alt={"up"}
-              onClick={HandleIncrease}
-            ></Button>
+            <Button src={upIcon} alt={"up"} onClick={HandleIncrease}></Button>
           </div>
           <div>
             <Button bgColor={"Lavender"} onClick={HandleDecreaseFive}>
@@ -64,6 +64,9 @@ export default function Counter() {
             <Button bgColor={"Lavender"} onClick={HandleIncreaseFive}>
               +5
             </Button>
+          </div>
+          <div>
+            <Button src={resetIcon} bgColor={"LightGrey"} onClick={HandleReset} wide></Button>
           </div>
         </div>
       </div>
