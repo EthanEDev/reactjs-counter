@@ -1,8 +1,39 @@
-# React + Vite
+# ReactJS Counter Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React counter application built using Vite. The app demonstrates basic React state management and component structure while leveraging Vite's fast development and build capabilities.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Increment/Decrement Counter:** Basic counter functionality.
+- **Vite Integration:** Fast development environment with hot module replacement (HMR).
+- **Modular Components:** Clean and modular codebase.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/EthanEDev/reactjs-counter.git
+    cd reactjs-counter
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Deployment
+
+The app is deployed online and can be accessed here: [ReactJS Counter Deployment](#) <!-- Replace # with your actual URL -->
+
+## Contributing
+
+Feel free to open issues or submit pull requests for improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
