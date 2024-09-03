@@ -12,8 +12,10 @@ You can try out the live demo of this project [here](https://reactjs-counter.ver
 
 ## Features
 
-- Increment and decrement functionality
-- Reset counter value
+- Increase by 1
+- Decrease by 1
+- Increase by 5
+- Decrease by 5
 - Responsive design
 
 ## Installation
@@ -78,9 +80,10 @@ If the project uses Vite instead of Create React App, follow these steps:
 
 Once the application is running, you can use the following features:
 
-- **Increment**: Click the "+" button to increase the counter value.
-- **Decrement**: Click the "-" button to decrease the counter value.
-- **Reset**: Click the "Reset" button to set the counter back to zero.
+- **Increase by 1**: Click the "+" button to increase the counter value by 1.
+- **Decrease by 1**: Click the "-" button to decrease the counter value by 1.
+- **Increase by 5**: Click the "Increase by 5" button to increase the counter value by 5.
+- **Decrease by 5**: Click the "Decrease by 5" button to decrease the counter value by 5.
 
 ## Technologies Used
 
