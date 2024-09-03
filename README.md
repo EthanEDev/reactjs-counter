@@ -28,7 +28,7 @@ This is a simple React counter application built using Vite. The app demonstrate
 
 ## Deployment
 
-The app is deployed online and can be accessed here: [ReactJS Counter Deployment](#) <!-- Replace # with your actual URL -->
+The app is deployed online and can be accessed here: [ReactJS Counter Deployment](https://reactjs-counter.vercel.app/)
 
 ## Contributing
 
