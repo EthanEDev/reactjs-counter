@@ -17,7 +17,6 @@ You can try out the live demo of this project [here](https://reactjs-counter.ver
 - Increase by 5
 - Decrease by 5
 - Reset (sets the counter value to zero)
-- Responsive design
 
 ## Installation
 
