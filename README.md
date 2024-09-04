@@ -1,4 +1,4 @@
-# ReactJS Counter
+# ReactJS Component: Counter
 
 A simple and interactive counter application built with React.js. This project demonstrates basic React concepts including state management and event handling.
 
